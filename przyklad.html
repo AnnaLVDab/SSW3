@@ -1,0 +1,15 @@
+<button type="button"
+        onclick="document.getElementById("demo").innerHTML =
+"Czesc " + osoba + "! Jak sie dzisiaj czujesz?">
+    Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+function powitanie() {
+var osoba = prompt("Wprowadź swoje imie");
+if (osoba != null) {
+document.getElementById("demo").innerHTML =
+"Czesc " + osoba + "! Jak sie dzisiaj czujesz?";
+}
+}
+</body>
+</html>
